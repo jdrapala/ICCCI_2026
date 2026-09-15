@@ -2,11 +2,8 @@
 
 # When Interpretable Parameters Fail to Explain
 
-### A reproducible Rescorla-Wagner identifiability walkthrough for ICCCI 2026 
+### Companion repository for the [ICCCI 2026](https://iccci.pwr.edu.pl/2026/) paper
 
-![ICCCI 2026](https://iccci.pwr.edu.pl/2026/)
-
-**Companion repository for the ICCCI 2026 paper**  
 *When Interpretable Parameters Fail to Explain: Evidence from the Rescorla-Wagner Model*
 
 **Authors:** Jarosław Drapała · Mateusz Zolisz · Paweł Wachel
@@ -51,11 +48,11 @@ The walkthrough develops the analysis step by step:
 
 The analyses combine complementary views of the same identification problem:
 
-1. **Likelihood geometry** — is the optimum well localized, or do extended near-optimal regions exist?
-2. **Problematic estimates** — how often are fitted parameters pushed toward imposed bounds?
-3. **Parameter recovery** — how close are recovered parameters to the values that generated the data?
-4. **Regional diagnostics** — does recovery quality vary across the parameter space?
-5. **Recovered-distribution overlap** — can distinct generating mechanisms remain distinguishable after fitting?
+1. **Likelihood geometry** - is the optimum well localized, or do extended near-optimal regions exist?
+2. **Problematic estimates** - how often are fitted parameters pushed toward imposed bounds?
+3. **Parameter recovery** - how close are recovered parameters to the values that generated the data?
+4. **Regional diagnostics** - does recovery quality vary across the parameter space?
+5. **Recovered-distribution overlap** - can distinct generating mechanisms remain distinguishable after fitting?
 
 These diagnostics are intended to support scientific judgment. They are not an automatic accept/reject test for a model.
 
@@ -64,7 +61,6 @@ These diagnostics are intended to support scientific judgment. They are not an a
 ```text
 ICCCI_2026/
 ├── README.md
-├── ICCCI_2026_camera_ready_111.pdf
 ├── iccci2026_rescorla_wagner_identifiability_walkthrough.ipynb
 └── artifacts/
     ├── raw/          # raw simulation outputs
